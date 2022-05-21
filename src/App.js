@@ -36,9 +36,10 @@ const App = () => {
   return (
     <BrowserRouter history={history}>
       <div>
-        <nav className="navbar navbar-expand navbar-dark bg-dark">
+        <nav className="navbar navbar-light bg-light static-top">
+          
           <Link to={"/"} className="navbar-brand">
-            bezKoder
+            JJMacias
           </Link>
           <div className="navbar-nav mr-auto">
             <li className="nav-item">
@@ -108,6 +109,7 @@ const App = () => {
             <Route path="/admin" element={<BoardAdmin />} />
           </Routes>
         </div>
+        
       </div>
     </BrowserRouter>
   );
